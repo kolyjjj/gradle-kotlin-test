@@ -20,3 +20,4 @@ JVM: OpenJDK 64-Bit Server VM by JetBrains s.r.o
 * Create a file `build.gradle.kts` under the root directory of the project
 * Add rootProject.buildFileName = 'build.gradle.kts' in the settings.gradle file
 * Add codes in `build.gradle.kts`, and if the auto-completion does not work, try "Refresh all projects" in the Gradle Tool Window.
+* Restart Idea if it still does not work
