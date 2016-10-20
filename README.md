@@ -12,3 +12,11 @@ JVM: OpenJDK 64-Bit Server VM by JetBrains s.r.o
 
 ### tips
 * Need to add `rootProject.buildFileName = 'build.gradle.kts'` in the `settings.gradle`
+
+### steps
+* Download the kotlin-plugin-1.1.0-dev-2222.zip in [https://github.com/gradle/gradle-script-kotlin/tree/master/samples] and install the plugin in Idea
+* Create a gradle java project in Idea, and choose to use gradle wrapper
+* In the terminal, under the project directory, use `./gradlew wrapper --gradle-version=3.1` to switch to gradle 3.1
+* Create a file `build.gradle.kts` under the root directory of the project
+* Add rootProject.buildFileName = 'build.gradle.kts' in the settings.gradle file
+* Add codes in `build.gradle.kts`, and if the auto-completion does not work, try "Refresh all projects" in the Gradle Tool Window.
